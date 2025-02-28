@@ -1,0 +1,18 @@
+@charset 'utf-8';
+
+.sample06 .main {
+  margin-bottom: 10px;
+}
+
+.sample06 .thumbnail .swiper-slide {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.sample06 .thumbnail .swiper-slide-active {
+  opacity: 1;
+}
+
+.sample06 .thumbnail .swiper-wrapper{
+  margin-left: calc(-37.5% - 5px);
+}

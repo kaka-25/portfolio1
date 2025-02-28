@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="〇〇80～110文字の要約文　googleに表示される文字">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"><!-- レスポンシブ用 -->
+		<title>miki kayama portfolio</title>
+		<meta name="description" content="香山未来のポートフォリオ">
+		<!--ファビコン-->
+		<link rel="shortcut icon" href="image/favicon.ico">
+		
+	<!-- drawerの実装 -->
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+		
+		<!--通常のcss-->
+		<link rel="stylesheet" href="css/style.css"><!-- ※デフォルトのスタイル（style.css） -->
+		<link rel="stylesheet" href="css/pc.css"><!-- ※pcのスタイル（pc.css） -->
+		<link rel="stylesheet" href="css/tablet.css"><!-- ※タブレット用のスタイル（tablet.css） -->
+		<link rel="stylesheet" href="css/smart.css"><!-- ※スマートフォン用のスタイル（smart.css） -->
+	</head>
+
+	<body id="index">
+		<header>
+			<nav>
+				<div>
+					<a href="index.html">
+					<img src="image/miki_rogo_03.png" alt="kayamamikirogo">
+					</a>
+				</div>
+				<div class="list">
+					<ul>
+						<li><a href="index.html">Top</a></li>
+						<li><a href="works.html">Work</a></li>
+						<li><a href="works.html#Web">Web</a></li>
+						<li><a href="works.html#flyer">Flyer</a></li>
+						<li><a href="works.html#poster">Poster</a></li>
+						<li><a href="works.html#catalog">Catalog</a></li>
+						<li><a href="works.html#magazin">Magazine</a></li>
+						<li><a href="works.html#scool">School</a></li>
+						<li><a href="works.html#other">Other</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!--*************************** hammbaga-menu-ここから*********************** -->
+		<div class="drawer drawer--right">
+			<div role="banner">
+			  <button type="button" class="drawer-toggle drawer-hamburger">
+					<span class="sr-only">toggle navigation</span>
+					<span class="drawer-hamburger-icon"></span>
+				</button>
+				<nav class="drawer-nav" role="navigation">
+					<ul class="drawer-menu">
+						<li><a class="drawer-brand" href="#">Menu</a></li>
+						<li><a class="drawer-menu-item" href="index.html">Top</a></li>
+						<li><a class="drawer-menu-item" href="works.html">Work</a></li>
+						<li><a class="drawer-menu-item" href="works.html#Web">Web</a></li>
+						<li><a class="drawer-menu-item" href="works.html#flyer">Flyer</a></li>
+						<li><a class="drawer-menu-item" href="works.html#poster">Poster</a></li>
+						<li><a class="drawer-menu-item" href="works.html#catalog">Catalog</a></li>
+						<li><a class="drawer-menu-item" href="works.html#magazin">Magazine</a></li>
+						<li><a class="drawer-menu-item" href="works.html#scool">School</a></li>
+						<li><a class="drawer-menu-item" href="works.html#other">Other</a></li>
+					</ul>
+				</nav>
+			</div>
+			<main role="main">
+			</main>
+		</div>
+		
+		
+		<article class="profile">
+				<div>
+					<a href="works.html">
+						<img src="image/index_pc_illust01.gif" alt="">
+					</a>
+				</div>
+				<div>
+					<h1 class="font4">
+						<span>M</span>
+						<span>I</span>
+						<span>K</span>
+						<span>I</span>
+						<span>K</span>
+						<span>A</span>
+						<span>Y</span>
+						<span>A</span>
+						<span>M</span>
+						<span>A</span>
+					</h1>
+					<h2 class="font3">PORTFOLIO</h2>
+					<p>
+						2000年嵯峨美術短期大学を卒業後、複数の広告業界で経験を積み2005年印刷会社に入社。グラフィックデザイナーとして数々の印刷物を制作し2018年12月印刷会社を退社後、職業訓練校にてホームページのデザイン、html、cssコードを学びDTPとWebを両立できるデザイナーを目指しています。
+					</p>
+				</div>
+		</article>
+		
+		<!--フッター-->	
+		<footer>
+			<small>&copy;miki kayama portfolio</small>
+		</footer>
+		
+		<!--//////////////////////////hanbargaプラグイン//////////////////////////-->		
+		<script>
+			$(document).ready(function() {
+			$('.drawer').drawer();
+			});
+		</script>
+	</body>
+</html>

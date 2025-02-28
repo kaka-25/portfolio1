@@ -1,0 +1,191 @@
+@media screen and (max-width:768px){
+	
+	/*------------------------ヘッダー------------------------*/
+	header img{
+		width: 100px;
+		height:auto;
+		padding-top: 5px;
+	}
+	header .list{
+	display: none;
+	}
+/*------------------------indexページ------------------------*/
+/*共通*/
+.profile{
+	margin-bottom: 100px;
+	width: 100%;
+	margin: 0 auto;
+	padding:120px 50px 50px 50px ;
+}
+.profile img{
+	width: 100%;
+}
+
+	
+/*文字*/
+.profile>div:nth-of-type(2){
+	padding-top: 30px;
+}
+.profile h1{
+	font-size: 10px;
+	text-align: center;
+}
+.profile h2{
+	font-size: 42px;
+	padding-bottom:5px;
+	text-align: center;
+}
+.profile p{
+	padding-top:10px;
+	font-size: 13px;
+}
+/*------------------------works------------------------*/
+/*works文字*/
+	.work{
+		padding-top: 100px;
+	}
+	.work>h1{
+		font-size: 32px;
+		text-align: center;
+	}
+/*コンテンツタイトル文字*/
+	.work h2{
+		font-size: 24px;
+		margin-top: 50px;
+		text-align: center;
+	}
+/*作品文字*/
+	.work h3{
+		font-size: 11px;
+		font-weight: normal;
+	}
+	.content{
+		margin-top: 10px;	
+	}
+	.content span{
+		font-size:12px;
+	}
+	.content span:last-of-type{
+		font-size:12px;	
+	}
+	.url{
+		margin-top: 10px;	
+		font-weight: bold;
+		font-size: 11px;
+	}
+/*作品写真*/
+	/*wakuフレックス改行なし*/
+	.waku{
+		width: 100%;;
+		margin: 0 auto;
+		padding-right:50px;
+		padding-left:50px;
+	}
+	/*wakuフレックス改行あり*/
+	.waku2{
+		width: 100%;
+		margin: 0 auto;
+		padding-right:50px;
+		padding-left:50px;
+	}
+
+	/*wari1横長ピッタリ写真*/
+	.wari1 img{
+		margin-top: 50px;
+		height:auto;
+		width:100%;
+	}
+	.wari1{
+		width:100%;
+	}
+	/*wari2横長センター写真*/
+	.wari2 img{
+		margin-top: 50px;
+		width: 100%;
+		height: auto;
+	}
+	.wari2{
+		width:100%;
+	}
+	/*wari3縦長写真*/
+	.wari3{
+		width: 100%;
+	}
+	.wari3 img{
+		margin-top: 50px;
+		width:100%;
+		height: auto;
+	}
+/*------------------------largeページ------------------------*/
+/*共通*/
+	.largewaku{
+		padding-top: 75px;
+	}
+	.largewaku>h1{
+		font-size: 17px;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	/*--------swiper----------*/
+
+	
+	.large .largelist .material br{
+		display: inline;
+	}	
+	
+	/*swiper縦長*/
+	.large .element.style,.large .swiper-tatenaga .swiper-container,.large .swiper-tatenaga .element.style{
+		width:335px;
+		height:auto;
+	}
+	.large .swiper-tatenaga .swiper-slide img{
+		width:100%;
+	}
+	/*swiper横長*/
+	.large .element.style,.large .swiper-yokonaga .swiper-container,.large .swiper-yokonaga .element.style{
+		width:335px;
+		height:auto;
+	}
+	.large .swiper-yokonaga .swiper-slide img{
+		width:100%;
+	}
+	
+	/*---------1枚------------*/
+	.tate1mai,.yoko1mai{
+		margin: 0 auto;
+	}
+	
+
+	/*たて*/
+	.tate1mai,.tate1mai img{
+		width: 315px;
+		height:auto;
+	}
+	
+	/*よこ*/
+	.yoko1mai,.yoko1mai img{
+		width: 315px;
+		height:auto;
+		
+	}
+	/*---------swiper下ナビゲーションサイズ------------*/
+	.swiper-pagination-bullet {
+		width: 6px;
+		height: 6px;
+	}
+	.swiper-container-horizontal>.swiper-pagination-bullets{
+		bottom: 5px;
+	}
+/*------------------------ページトップ内リンク----------------------------*/
+.pagetop div{
+	width: 40px;
+	height: 40px;
+}
+
+.pagetop p{
+	padding-top: 12px;
+	text-align: center;
+	font-size: 12px;
+}
+	
+}/*(max-width:768px)の終わり*/

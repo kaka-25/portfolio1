@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+/*------------------------全体共通-----------------------*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	opacity: 0.8;
+}
+
+h1{
+	font-size: 28px;
+}
+h2{
+	font-size: 32px;
+}
+p{
+	font-size: 14px;
+}
+
+
+
+/*------font-------*/
+.font1{
+	font-family: 'bahnschriftfont';
+}
+.font2{
+	font-family: 'GOTHICB1font';
+}
+.font3{
+	font-family: 'Big Shoulders Text', cursive;
+}
+.font4{
+	font-family: 'Lato', sans-serif;
+}
+
+/*------Ind------*/
+#index{
+	background-color:#f39800;
+	width:100%;
+}
+
+/*------------------------ヘッダー------------------------*/
+header{
+	background-color: white;
+	padding: 10px;
+	width:100%;
+	position:fixed;
+	z-index: 1;
+}
+
+
+
+/*------hanbargaの色-------*/
+.drawer--right.drawer-open .drawer-hamburger{
+	right:0;
+	width:1.8em;
+	
+}
+.drawer-menu-item{
+	color:#4f4946;
+}
+.drawer-menu-item:hover{
+	color:#b71a35;
+}
+
+.drawer-brand{
+	color:#4f4946;
+}
+
+.drawer-brand:hover{
+	color:#4f4946;
+}
+
+.drawer-hamburger-icon, .drawer-hamburger-icon:after, .drawer-hamburger-icon:before{
+	background-color: #4f4946;
+}
+/*-----hanbarga----*/
+div .drawer-dropdown-menu li{
+	list-style:disc;
+	font-size: 14px;
+	overflow: visible;
+}
+
+.drawer-dropdown-menu{
+	padding-left: 50px;	
+}
+
+.drawer-dropdown-menu .drawer-dropdown-menu-item{
+	padding:0;
+	line-height:2.5;
+}
+	
+.drawer-menu{
+	z-index:99;
+}
+
+/*------------------------indexページ------------------------*/
+/*共通*/
+.profile{
+	color: white;
+	width: 100%;
+}
+/*文字*/
+.profile h2{
+	border-bottom: solid 1px white;
+}
+
+
+/*------------------------works------------------------*/
+/*works文字*/
+
+.work>h1{
+	border-bottom: solid 1px #4f4946;
+}
+/*コンテンツタイトル文字*/
+.work h2{
+	background-color: #f39800;
+	color: white;
+
+}
+/*作品文字*/
+.content span{
+	font-weight: bold;
+}
+.content span:last-of-type{
+	font-weight:normal;
+	}
+.url{
+	border-bottom: solid 1px black;	
+}
+
+/*作品写真*/
+	.work{
+		width:100%
+	}
+
+/*------------------------largeページ------------------------*/
+/*共通*/
+.largewaku{
+	width: 100%;
+	}
+.largewaku>h1{
+	border-bottom: solid 1px black;
+	color:#4f4946;
+	}
+/*1枚共通*/
+	.tate1mai .yoko1mai{
+	width: 100%;
+	}
+/*swiper*/
+.swiper-pagination-bullet-active {
+background: #fff;
+}
+
+
+/*------------------------ページトップ内リンク----------------------------*/
+.pagetop{
+	position:fixed;
+	z-index:1;
+	bottom:0;
+	right:0;
+}
+.pagetop div{
+	background-color:rgba(243,152,0,0.7);
+	position: absolute;
+	bottom:0;
+	right:0;
+}
+
+.pagetop p{
+	color: white;
+}
+/*--------------------------------フッター----------------------------*/
+footer{
+	width:100%;
+	margin-top: 50px;
+	text-align:center;
+	/*border-top: solid 1px black;*/
+	padding-top: 10px;
+	padding-bottom:10px;
+	background-color:  white;
+}
+
+footer small{
+	display:block;
+}

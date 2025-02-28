@@ -1,0 +1,247 @@
+@media screen and (min-width:1025px){
+	
+/*------------------------ヘッダー------------------------*/
+header nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header ul{
+	display: flex;
+	justify-content: space-between;
+}
+header .list{
+	width:500px;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+nav li{
+	display: inline-block;
+}
+header a{
+	font-size:15px; 
+	color: #4f4946;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+}
+header a::after {
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #f39800;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+header a:hover::after {
+	bottom: -2px;
+	opacity: 1;
+	visibility: visible;
+}
+
+/*------hanbarga-------*/
+	.drawer--right .drawer-hamburger, .drawer--right.drawer-open .drawer-nav, .drawer--right.drawer-open .drawer-navbar .drawer-hamburger{
+		display: none;
+	}
+
+/*------------------------indexページ------------------------*/
+	/*共通*/
+	.profile{
+		
+		display:flex;
+		justify-content: space-between;
+		padding-top: 170px;
+		width:1000px;
+		margin: 0 auto;
+		margin-bottom: 100px;
+	}
+
+		/*画像*/
+	.profile>div{
+		width:50%;
+	}
+	.profile>div img{
+		width:100%;
+	}
+		/*文字*/
+	.profile>div:nth-of-type(2){
+		width:45%;
+		padding-top: 100px;
+	}
+	.profile h1{
+		width: 440px;
+		font-size: 23px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.profile h2{
+		font-size: 125px;
+		padding-bottom:15px;	
+	}
+	.profile p{
+		padding-top:30px;
+	}
+/*------------------------works------------------------*/
+/*works文字*/
+	.work{
+		padding-top: 100px;
+	}
+	.work>h1{
+		font-size: 32px;
+		text-align: center;
+	}
+/*コンテンツタイトル文字*/
+	.work h2{
+		font-size: 27px;
+		margin-top: 50px;
+		text-align: center;
+	}
+/*作品文字*/
+	.work h3{
+		font-size: 12px;
+		font-weight: normal;
+	}
+	.content{
+		margin-top: 10px;	
+	}
+	.content span{
+		font-size:12px;
+	}
+	.content span:last-of-type{
+		font-size:12px;	
+	}
+	.url{
+		margin-top: 10px;	
+		font-weight: bold;
+	}
+/*作品写真*/
+	/*wakuフレックス改行なし*/
+	.waku{
+		display: flex;
+		justify-content: space-between;
+		width: 1000px;;
+		margin: 0 auto;
+	}
+	/*wakuフレックス改行あり*/
+	.waku2{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 1000px;;
+		margin: 0 auto;
+	}
+
+	/*wari1横長ピッタリ写真*/
+	.wari1 img{
+		margin-top: 30px;
+		height:auto;
+		width:450px;
+	}
+	.wari1{
+		width:450px;
+	}
+	/*wari2横長センター写真*/
+	.wari2 img{
+		margin-top: 30px;
+		height:400px;
+		width:auto;
+		padding:0 105px;
+	}
+	.wari2{
+		width:450px;
+	}
+	/*wari3縦長写真*/
+	.wari3{
+		width:268px;
+	}
+	.wari3 img{
+		margin-top: 30px;
+		width:268px;
+		height:auto;
+	}
+	/*写真縦の空き80px*/
+	.tateaki{
+		padding-top: 80px;
+	}
+/*------------------------ページトップ内リンク----------------------------*/
+
+.pagetop div{
+	width: 50px;
+	height: 50px;
+}
+
+.pagetop p{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 15px;
+}
+/*------------------------largeページ------------------------*/
+/*共通*/
+	.largewaku{
+		padding-top: 75px;
+	}
+	.largewaku>h1{
+		font-size: 23px;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	/*--------swiper----------*/
+	.large .swiper-container{
+		padding: 10px;
+		border: 1px solid #ccc;
+	}
+	
+	.large .largelist .material br{
+		display: inline;
+	}	
+	
+	/*swiper縦長*/
+	.large .element.style,.large .swiper-tatenaga .swiper-container,.large .swiper-tatenaga .element.style{
+		width:520px;
+		height:auto;
+	}
+	.large .swiper-tatenaga .swiper-slide img{
+		width:100%;
+	}
+	/*swiper横長*/
+	.large .element.style,.large .swiper-yokonaga .swiper-container,.large .swiper-yokonaga .element.style{
+		width:900px;
+		height:auto;
+	}
+	.large .swiper-yokonaga .swiper-slide img{
+		width:100%;
+	}
+	
+	/*---------1枚------------*/
+	.tate1mai,.yoko1mai{
+		margin: 0 auto;
+	}
+	
+	.tate1mai img,.yoko1mai img{
+		padding: 10px;
+		border: 1px solid #ccc;
+	}
+	/*たて*/
+	.tate1mai,.tate1mai img{
+		width: 500px;
+		height:auto;
+	}
+	
+	/*よこ*/
+	.yoko1mai,.yoko1mai img{
+		width: 900px;
+		height:auto;
+	}
+
+	
+	
+	
+	
+	
+}/*(min-width:1025px)の終わり*/
